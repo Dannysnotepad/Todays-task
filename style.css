@@ -1,0 +1,69 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.form{
+  background-color: green;
+  margin: 0px;
+  padding: 10px;
+}
+input[type=text]{
+  font-weight: bold;
+  width: 200px;
+  height: 25px;
+  border: none;
+  font-size: 20px;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: none;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit{
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+  width: 70px;
+  background-color: goldenrod;
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+ul{
+  background-color: #fff;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0,0,0,.04));
+
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+
+    text-shadow: 0 1px rgba(255,255,255,.4);
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: gray;
+  font-weight: bold;
+}
+
+hr{
+  margin-top: 5px;
+  
+  border-color: green;
+  width: 100%;
+}
+
+.done{
+  color: black;
+}
